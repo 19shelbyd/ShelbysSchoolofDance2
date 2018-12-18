@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    
+    <div class="menu-layout">
+       <div class="menu-item"><a href="index.html">Home</a></div>
+      <div class="menu-item">About</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to Shelby's School of Dance</h2>
+        <p>At Shelby's School of Dance we are here to change the lives of the students and families that come here. We enrich the living of the people through the performance, outreach, and amazing techinqual education.</p>
+        <p>We are a school that will teach the students the importance of the arts. e provide opportunities for students to demonstrate their skills and fulfill their personal goals in the art of dance in a professional environment.</p>
+        <p>We put on the tradition Nutcraker ballet every year along with a spring ballet. We also have a modern show that is put on annually. There is a summer recital at the end of the season so the parents of the young students can see how their child has progressed throughout the season.</p>
+        <p>Company performance classes aim to continue to develop the student’s technique, flexibility, and strength, along with emotional expression conveyed through movement within ballet, modern, contemporary, jazz, and tap choreography. Students become involved in learning the choreographic process, and develop both dance and outreach/communication skills.</p>
+      </div>
+
+      <div class="sidebar-two">
+        <img id="logo" src="https://raw.githubusercontent.com/19shelbyd/HowTo/master/images/HowTo.jpg">
+          <div>
+          <ul>
+            <li>Dance Apparel</li>
+            <li>Board and Staff</li>
+            <li>Classes</li>
+          </ul>
+          </div>
+      </div>
+    </div>
+
+<div id="buttondiv"><button id="hidebutton" onclick="hideOffers()">Hide Offers</button></div>
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Special Offer 1</h4>
+        <p>At Shelby's School of Dance we offer many different things. We have classes for all styles of dance and all ages are encouraged to try. We are now offering a very specail offer. If you take more than six hours of dance classes in one week you will be on unlimited. You will only have to pay a set rate and then you can take as many classes as you are wanting to take. </p>
+          <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Special Offer 2</h4>
+        <p>Shelby's School of Dance wants to help all children. We have specail classes during the day to help home-schoolers This is also a great way for home-schoolers to get a Physical Education credit in school. We also have groups that meet during the day and at night for spcial needs students. We also go into schools and teach them about the arts. We offer so many specila things and you should come out and try them. </p>
+        <button>Learn More</button>
+      </div>
+
+    </div>
+    
+    <script>
+      function hideOffers() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+
+        x.style.display="none";
+        y.style.display="none";
+
+      }
+    </script>
+    
+  </body>
+
+  </html>
